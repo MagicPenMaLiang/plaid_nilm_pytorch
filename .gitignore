@@ -1,0 +1,18 @@
+# Ignore raw dataset classes (automatically downloaded by train.py)
+plaid_dataset/classes/
+
+# Ignore Python virtual environments
+nilm_env/
+venv/
+.venv/
+env/
+
+# Ignore Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore local system files
+.DS_Store
+Thumbs.db
